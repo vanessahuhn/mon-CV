@@ -1,0 +1,93 @@
+body {
+  font-family: Verdana, Arial;
+  box-sizing: border-box;
+  margin: 5% 5%;
+}
+
+#CV {
+  display : grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+#infos {
+  grid-column: 1;
+  grid-row: 1;
+  width: 100%;
+  float: left;
+  
+}
+
+#infos h2 {
+  
+}
+
+#infos h4 {
+  line-height: 1.5em;
+}
+
+#photo {
+  grid-column: 2;
+  grid-row: 1;
+  width: 100%;
+  float: right;
+}
+
+#photo img {
+  border:2px black solid;
+	border-radius: 50%;
+	box-shadow: 6px 6px 6px grey;
+	width: 35%;
+  float: right;
+}
+
+#poste {
+  grid-column: 1 / 3;
+  grid-row: 2;
+  width: 100%;
+  text-align: center;
+}
+
+#poste h1 {
+  
+}
+
+.title {
+  color: navy;
+	display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#formations {
+  grid-column: 1 / 2;
+  grid-row: 3;
+  width: 100%;
+  float: left;
+}
+
+#experience {
+  grid-column: 1 / 2;
+  grid-row: 4;
+  width: 100%;
+  float: left;
+}
+
+#competences {
+  grid-column: 1 / 2;
+  grid-row: 5;
+  width: 100%;
+  float: left;
+}
+
+#loisirs {
+  grid-column: 1 / 2;
+  grid-row: 6;
+  width: 100%;
+  float: left;
+}
+
+li {
+  line-height: 1.5em;
+}
